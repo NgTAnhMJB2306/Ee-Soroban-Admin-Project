@@ -1,0 +1,35 @@
+.content {
+    margin: 30px 0 0 0;
+}
+
+.menu {}
+
+.menu .menu__list {
+    display: grid;
+}
+
+.menu .menu__list .menu__item {
+    display: flex;
+    margin: 0 0 15px 0;
+    width: 83%;
+    height: 66px;
+    background-color: var(--menu-color);
+    align-items: center;
+    padding: 0 0 0 40px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 4px;
+}
+
+.menu .menu__list .menu__item .menu__icon {
+    font-size: 26px;
+    color: var(--nav-color);
+    font-weight: bold;
+}
+
+.menu .menu__list .menu__item .menu__title {
+    margin: 0 0 0 15px;
+    font-size: 23px;
+    font-weight: lighter;
+    font-stretch: condensed;
+    color: var(--text-color);
+}
